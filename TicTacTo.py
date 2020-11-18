@@ -10,10 +10,11 @@ def afficheGrille (grille):
 def ajouteSymbole(grille,joueur):
     choixIncorrect=True
     while( choixIncorrect=True):
-        i= int(input("Sur quelle ligne voule-vous jouer ?"))
-        j= int(input("Sur quelle colonne voule-vous ?"))
+        i= int(input("Sur quelle ligne voulez-vous jouer ?"))
+        j= int(input("Sur quelle colonne voulez-vous ?"))
         if (grille[3*i+j]!=" "):
             grille [3*i+j] = joueur
             choixIncorrect=False
+
             
 input()
